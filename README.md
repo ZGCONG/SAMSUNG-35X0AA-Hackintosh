@@ -1,1 +1,25 @@
-# SAMSUNG-340XAA-350XAA-550XAA-Hackintosh
+# SAMSUNG-35X0AA-Hackintosh
+## 版本
+OpenCore：0.7.1
+
+macOS：macOS Big Sur 11.5.1（20G80）
+## 配置信息
+CPU：Intel i5-8250U
+
+iGPU：Intel UHD Graphice 620
+
+RAM：Samsung DDR4 2400MHz 4 GB + SK Hynix DDR4 2400Mhz 8 GB
+
+SSD：SAMSUNG 128GB MZNLN128HAHQ-000
+
+HDD：Barracuda 1TB ST1000LM048-2E7172
+
+Audio：Realtek Audio VEN_10EC&DEV_0256
+
+Network：RTL810*/8139 Family Fast Ethernet NIC
+
+## 正常工作
+核显、声卡、有线网卡、USB、电源管理、CPU变频、电池电量显示、睡眠、唤醒、摄像头、麦克风
+
+## 不工作
+蓝牙、WIFI、触控板
