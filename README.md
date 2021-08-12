@@ -15,9 +15,9 @@ SSD：SAMSUNG 128GB MZNLN128HAHQ-000
 
 HDD：Barracuda 1TB ST1000LM048-2E7172
 
-Audio：Realtek Audio VEN_10EC&DEV_0256
+Audio：Realtek ALC256
 
-Network：RTL810*/8139 Family Fast Ethernet NIC
+Network：RTL810x/8139 Family Fast Ethernet NIC
 
 ## 正常工作
 核心显卡、声卡、有线网卡、USB、电源管理、CPU变频、电池电量显示、睡眠、唤醒、摄像头、麦克风、键盘
