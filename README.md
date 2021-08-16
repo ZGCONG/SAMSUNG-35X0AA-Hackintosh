@@ -32,6 +32,8 @@ Network：RTL810x/8139 Family Fast Ethernet NIC
 
 1、定制 USBPorts.kext 驱动所有 USB 并内建。
 
+2、关闭部分无用内核Kext驱动。
+
 ### 2021-08-12
 
 1、升级 OpenCore 0.7.2 正式版。
