@@ -24,7 +24,7 @@ macOS：macOS Big Sur 11.5.2（20G95）
 | TouchPad | TouchPad | 🚫 |
 
 ## BIOS Configuration
-|  内容 | 项  |
+|  Configuration |   |
 | ------------ | ------------ |
 |  **Advanced**  |   |
 |  Touch Pad Mouse | On  |
