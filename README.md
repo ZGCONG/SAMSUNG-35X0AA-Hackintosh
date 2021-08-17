@@ -21,7 +21,7 @@ macOS：macOS Big Sur 11.5.2（20G95）
 | Ethernet Card | Realtek RTL8106E | ✅ |
 | Wireless Card | Qualcomm Atheros QCA9377 | 🚫 |
 | Keyboard | Keyboard | ✅ |
-| TouchPad | TouchPad | 🚫 |
+| TouchPad | Touchpad ATML3000 | 🚫 |
 
 ## BIOS Configuration
 |  Configuration |   |
