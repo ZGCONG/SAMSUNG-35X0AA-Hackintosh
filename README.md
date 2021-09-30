@@ -1,8 +1,8 @@
 # SAMSUNG-35X0AA-Hackintosh
 ## Version
-OpenCore：0.7.2
+OpenCore：0.7.3
 
-macOS：macOS Big Sur 11.5.2（20G95）
+macOS：macOS Big Sur 11.6（20G165）
 
 说明：当前引导支持 Mojave、Catalina、Big Sur（10.14～11.x）。暂不考虑适配 macOS Monterey（12）开发者预览版（Beta 版），等待秋季发布正式版。
 
@@ -39,13 +39,20 @@ macOS：macOS Big Sur 11.5.2（20G95）
 
 ## Updates
 
-- 2021-08-16
+- 2021-09-30
 
-  1、定制 USBPorts.kext 驱动所有 USB 并内建。
+  1、升级 OpenCore 0.7.3 正式版。
 
-  2、关闭部分无用内核Kext驱动。
+  2、例行升级 kext 版本（AppleALC、Lilu、VirtualSMC、WhateverGreen）。
   
   此次版本为优化版，升级此版本建议清空nvram（使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram）。
+<details>
+<summary>2021-08-16</summary>
+1、定制 USBPorts.kext 驱动所有 USB 并内建。
+<br>
+2、关闭部分无用内核Kext驱动。
+</details>
+  
 <details>
 <summary>2021-08-12</summary>
 1、升级 OpenCore 0.7.2 正式版。
