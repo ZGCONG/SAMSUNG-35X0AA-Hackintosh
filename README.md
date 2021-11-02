@@ -1,6 +1,6 @@
 # SAMSUNG-35X0AA-Hackintosh
 ## Version
-OpenCore：0.7.4
+* OpenCore：0.7.4
 
 * 当前引导支持 Mojave、Catalina、Big Sur、Monterey（10.14～12.x）。
 
