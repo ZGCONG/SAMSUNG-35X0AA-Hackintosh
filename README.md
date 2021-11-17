@@ -1,8 +1,7 @@
 # SAMSUNG-35X0AA-Hackintosh
 ## Version
-* OpenCore：0.7.4
-
-* 当前引导支持 Mojave、Catalina、Big Sur、Monterey（10.14～12.x）。
+* OpenCore：0.7.5
+* 当前引导支持系统：Mojave、Catalina、Big Sur、Monterey（10.14～12.x）
 
 ## Configuration
 | Specifications | Detail | Working |
@@ -24,56 +23,54 @@
 ## BIOS Configuration
 |  Configuration |   |
 | ------------ | ------------ |
-|  **Advanced**  |   |
+|  **Advanced**  |  -  |
 |  Touch Pad Mouse | On  |
 |  Touch Pad S3 Wake-up | Off  |
 |  USB S3 Wake-up |  Off |
-|  **Security** |   |
+|  **Security** |  -  |
 |  Password | Off  |
-|  **Boot** |   |
+|  **Boot** |  -  |
 |  Secure Boot Control   | Off |
 |  OS Mode Selection   | UEFI OS |
 |  Fast BIOS Mode   | Off |
 
 ## Updates
+- 2021-11-17
 
-- 2021-11-02
-
-  1、升级 OpenCore 0.7.4 正式版。
+  1、升级 OpenCore 0.7.5 正式版。
   
-  2、升级 HfsPlus.efi 驱动程序
-
-  3、例行升级 kext 版本（AppleALC、WhateverGreen、VoodooPS2）。
+  2、例行升级 kext 版本（AppleALC、Lilu、WhateverGreen、VoodooPS2）。
   
-  此版本开始支持 macOS 12（Monterey），升级此版本建议清空nvram（使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram）。
+  ⚠️注意：升级此版本建议使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram（Recovery 模式和 Reset NVRAM 均为隐藏功能，可在 OpenCore 引导界面敲击一下空格，即可出现）。
+<details>
+<summary>2021-11-02</summary>
+1、升级 OpenCore 0.7.4 正式版。<br>
+2、升级 HfsPlus.efi 驱动程序。<br>
+3、例行升级 kext 版本（AppleALC、WhateverGreen、VoodooPS2）。<br>
+<br></details>
+
 <details>
 <summary>2021-09-30</summary>
-1、升级 OpenCore 0.7.3 正式版。
-<br>
-2、例行升级 kext 版本（AppleALC、Lilu、VirtualSMC、WhateverGreen）。
-</details>
+1、升级 OpenCore 0.7.3 正式版。<br>
+2、例行升级 kext 版本（AppleALC、Lilu、VirtualSMC、WhateverGreen）。<br>
+<br></details>
 
 <details>
 <summary>2021-08-16</summary>
-1、定制 USBPorts.kext 驱动所有 USB 并内建。
-<br>
-2、关闭部分无用内核Kext驱动。
-</details>
+1、定制 USBPorts.kext 驱动所有 USB 并内建。<br>
+2、关闭部分无用内核Kext驱动。<br>
+<br></details>
   
 <details>
 <summary>2021-08-12</summary>
-1、升级 OpenCore 0.7.2 正式版。
-<br>
-2、例行升级 kext 版本（AppleALC、Lilu、NVMeFix、VirtualSMC、WhateverGreen、ECEnabler）。
-<br>
-3、启用 OpenCore 默认主题模式引导。
-<br>
-4、添加缓冲帧补丁。
-<br>
-5、模拟机型为MacBookPro14,2。
-</details>
+1、升级 OpenCore 0.7.2 正式版。<br>
+2、例行升级 kext 版本（AppleALC、Lilu、NVMeFix、VirtualSMC、WhateverGreen、ECEnabler）。<br>
+3、启用 OpenCore 默认主题模式引导。<br>
+4、添加缓冲帧补丁。<br>
+5、模拟机型为MacBookPro14,2。<br>
+<br></details>
 
 <details>
 <summary>2021-08-10</summary>
-1、基于 OpenCore 0.7.1 正式版进行EFI引导制作。
-</details>
+1、基于 OpenCore 0.7.1 正式版进行EFI引导制作。<br>
+<br></details>
