@@ -35,17 +35,27 @@
 |  Fast BIOS Mode   | Off |
 
 ## Updates
-- 2021-11-17
+- 2021-11-22
 
-  1、升级 OpenCore 0.7.5 正式版。
+  1、使用 OpenHfsPlus.efi 作为 HFS 文件系统驱动。
   
-  2、例行升级 kext 版本（AppleALC、Lilu、WhateverGreen、VoodooPS2）。
+  2、更新 OpenCore 默认主题素材。
+  
+  3、OpenCore 启动引导调整（取消隐藏辅助条目、允许直接切换 SIP 状态）。
+  
+  4、去除多余 Tools 工具。
   
   ⚠️注意：升级此版本建议使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram（Recovery 模式和 Reset NVRAM 均为隐藏功能，可在 OpenCore 引导界面敲击一下空格，即可出现）。
 <details>
+<summary>2021-11-17</summary>
+1、升级 OpenCore 0.7.5 正式版。<br>
+2、例行升级 kext 版本（AppleALC、Lilu、WhateverGreen、VoodooPS2）。<br>
+<br></details>
+
+<details>
 <summary>2021-11-02</summary>
 1、升级 OpenCore 0.7.4 正式版。<br>
-2、升级 HfsPlus.efi 驱动程序。<br>
+2、升级 HfsPlus 文件系统驱动。<br>
 3、例行升级 kext 版本（AppleALC、WhateverGreen、VoodooPS2）。<br>
 <br></details>
 
