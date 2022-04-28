@@ -32,6 +32,11 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 
 ## 更新日志（Change Log）
 
+### 2022-04-28，本次更新内容：
+1. 升级 OpenCore 0.8.0 正式版
+2. 例行升级 kext 版本（AppleALC、Lilu、WhateverGreen、VoodooPS2、VirtualSMC）
+3. 优化 kext 顺序
+
 ### 2021-12-13，本次更新内容：
 1. 升级 OpenCore 0.7.6 正式版
 2. 例行升级 kext 版本（AppleALC、Lilu、VirtualSMC）
