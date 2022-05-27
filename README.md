@@ -2,7 +2,7 @@
 EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 
 ## 当前版本（Version）
-* OpenCore：0.7.6
+* OpenCore：0.8.0
 * 当前引导支持系统：Mojave、Catalina、Big Sur、Monterey（10.14～12.x）
 * ⚠️注意：升级此版本建议使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram（Recovery 模式和 Reset NVRAM 均为隐藏功能，可在 OpenCore 引导界面敲击一下空格，即可出现）
 
