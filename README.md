@@ -35,6 +35,7 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 ### 2023-02-13，本次更新内容：
 1. 升级 OpenCore 0.8.8 正式版
 2. 例行升级 kext 版本（AppleALC、VoodooPS2Controller、WhateverGreen、Lilu）
+3. 移除 NVMeFix.kext 驱动
 
 ### 2022-12-16，本次更新内容：
 1. 升级 OpenCore 0.8.7 正式版
