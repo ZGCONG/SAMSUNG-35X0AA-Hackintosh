@@ -16,8 +16,8 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 - **Bluetooth**: Qualcomm Atheros QCA9377 (无解)
 - **Audio**: Realtek ALC256 
 - **Touchpad**: ATML3000 (无解)
-- **SSD Storage**: 256GB SanDisk SD9SN8W256G1004 M.2 SAT
-- **HHD Storage**: 1TB Barracuda ST1000LM048 SATA
+- **SSD Storage**: 256GB SanDisk SD9SN8W256G1004 M.2 SATA
+- **HHD Storage**: 1TB WDS100T2B0A SATA
 - **WebCam**: USB 2.0 Camera 
 - **Battery**: 43 Wh Battery
 
