@@ -2,8 +2,8 @@
 EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 
 ## 当前版本（Version）
-* OpenCore：0.9.1
-* 当前引导支持系统：Mojave、Catalina、Big Sur、Monterey、Ventura（10.14～13.x）
+* OpenCore：0.9.3
+* 当前引导支持系统：Mojave、Catalina、Big Sur、Monterey、Ventura、Sonoma Beta（10.14～14.x）
 * ⚠️注意：升级此版本建议使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram（Recovery 模式和 Reset NVRAM 均为隐藏功能，可在 OpenCore 引导界面敲击一下空格，即可出现）
 
 ## 配置（Specification）
@@ -31,6 +31,11 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 -  「Boot」-「Fast BIOS Mode」-「Off」 
 
 ## 更新日志（Change Log）
+
+### 2023-04-28，本次更新内容：
+1. 升级 OpenCore 0.9.3 正式版
+2. 例行升级 kext 版本
+3. 支持升级到 macOS 14 Sonoma Beta 测试版
 
 ### 2023-04-28，本次更新内容：
 1. 升级 OpenCore 0.9.1 正式版
