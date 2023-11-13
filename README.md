@@ -35,7 +35,7 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 ### 2023-11-13，本次更新内容：
 1. 升级 OpenCore 0.9.6 正式版
 2. 例行升级 kext 版本
-3. 支持升级到 macOS 14.1.1 Sonoma 测试版
+3. 支持升级到 macOS 14.1.1 Sonoma 正式版
 
 ### 2023-04-28，本次更新内容：
 1. 升级 OpenCore 0.9.3 正式版
