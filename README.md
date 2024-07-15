@@ -1,8 +1,8 @@
 # SAMSUNG-35X0AA-Hackintosh
-EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
+EFI for SAMSUNG 35X0AA (i5-8250U) By @ZGCong
 
 ## 当前版本（Version）
-* OpenCore：0.9.6
+* OpenCore：1.0.0
 * 当前引导支持系统：Mojave、Catalina、Big Sur、Monterey、Ventura、Sonoma（10.14～14.x）
 * ⚠️注意：升级此版本建议使用 Hackintool 或进入 OC 启动菜单执行 Reset Nvram（Recovery 模式和 Reset NVRAM 均为隐藏功能，可在 OpenCore 引导界面敲击一下空格，即可出现）
 
@@ -16,7 +16,7 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 - **Bluetooth**: Qualcomm Atheros QCA9377 (无解)
 - **Audio**: Realtek ALC256 
 - **Touchpad**: ATML3000 (无解)
-- **SSD Storage**: 256GB SanDisk SD9SN8W256G1004 M.2 SATA
+- **SSD Storage**: 256GB SK hynix SC311 M.2 SATA
 - **HHD Storage**: 1TB WDS100T2B0A SATA
 - **WebCam**: USB 2.0 Camera 
 - **Battery**: 43 Wh Battery
@@ -31,6 +31,12 @@ EFI for SAMSUNG 35X0AA(i5-8250U) By @ZGCong
 -  「Boot」-「Fast BIOS Mode」-「Off」 
 
 ## 更新日志（Change Log）
+
+### 2024-07-15，本次更新内容：
+1. 升级 OpenCore 1.0.0 正式版
+2. 例行升级 kext 版本
+3. 添加 CpuTscSync 驱动
+4. 支持升级到 macOS 14.5 Sonoma 正式版
 
 ### 2023-11-13，本次更新内容：
 1. 升级 OpenCore 0.9.6 正式版
